@@ -11,7 +11,7 @@ Features
 
 Prerequisites
 
-    Python 3.x
+    Python 3.10
     Required libraries: requests and BeautifulSoup
         Install them using pip install requests beautifulsoup4
 
