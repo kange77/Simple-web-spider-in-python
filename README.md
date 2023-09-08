@@ -1,41 +1,44 @@
-# Simple-web-spider-in-python
-Sample web spider project in python
+# Simple Web Spider in Python
 
-This Python project is a website crawler that uses the requests library and BeautifulSoup to crawl a specified website. It simulates requests from a random IP address using the X-Forwarded-For header. The project provides a simple way to crawl and extract the content of a webpage.
+A sample Python web spider project that crawls a specified website using the requests library and BeautifulSoup. This project simulates requests from random IP addresses using the X-Forwarded-For header and provides a simple way to crawl and extract the content of web pages.
 
-Features
+## Features
 
-    Crawl a specified website using a random IP address.
-    Use the requests library to send HTTP requests.
-    Extract and print the content of the webpage using BeautifulSoup.
+- Crawl a specified website using a random IP address.
+- Use the `requests` library to send HTTP requests.
+- Extract and print the content of the web pages using BeautifulSoup.
 
-Prerequisites
+## Prerequisites
 
-    Python 3.10
-    Required libraries: requests and BeautifulSoup
-        Install them using pip install requests beautifulsoup4
+- Python 3.10
+- Required libraries: `requests` and `BeautifulSoup`
+  - Install them using `pip install requests beautifulsoup4`
 
-Usage
+## Usage
 
-    Set up the project:
-        Clone or download the project files to your local machine.
-        Make sure you have the required libraries installed.
+### Setup the Project
 
-    Run the crawler:
-        Open the website_crawler.py file in a Python editor or IDE.
-        Update the url variable in the crawl() function with the URL of the website you want to crawl.
-        Execute the script.
+1. Clone or download the project files to your local machine.
+2. Make sure you have the required libraries installed.
 
-    View the crawled content:
-        The script will simulate a request from a random IP address using the X-Forwarded-For header.
-        The webpage's content will be printed to the console using BeautifulSoup.
+### Run the Crawler
 
-Customization
+1. Open the `webspider_crawler.py` file in a Python editor or IDE.
+2. Update the `url` variable in the `crawl()` function with the URL of the website you want to crawl.
+3. Execute the script.
 
-    Modify the url variable in the crawl() function to crawl a different website.
-    Adapt the script to extract specific information or perform further analysis on the crawled content as needed.
+### View the Crawled Content
 
-Limitations and Legal Considerations
+- The script will simulate a request from a random IP address using the X-Forwarded-For header.
+- The webpage's content will be printed to the console using BeautifulSoup.
 
-    Respect the terms of service and any applicable legal restrictions when crawling websites.
-    Be mindful of the website's usage limits and any rate restrictions to avoid overloading the server or violating any policies.
+## Customization
+
+- Modify the `url` variable in the `crawl()` function to crawl a different website.
+- Adapt the script to extract specific information or perform further analysis on the crawled content as needed.
+
+## Limitations and Legal Considerations
+
+- Respect the terms of service and any applicable legal restrictions when crawling websites.
+- Be mindful of the website's usage limits and any rate restrictions to avoid overloading the server or violating any policies.
+
